@@ -1,0 +1,6 @@
+framework module Pods_SQLiteTest3 {
+  umbrella header "Pods-SQLiteTest3-umbrella.h"
+
+  export *
+  module * { export * }
+}
