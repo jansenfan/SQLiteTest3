@@ -68,6 +68,7 @@ class peChartView: UIViewController,ChartViewDelegate{
         setChart(days:dateSet,values:numSet)
         
     }
+    
     func setChart(days:[String],values:[Double]){
         var dataEntries:[ChartDataEntry]=[]
         for i in 0..<days.count {
@@ -87,11 +88,19 @@ class peChartView: UIViewController,ChartViewDelegate{
         
         lineChartView.chartDescription?.text="PE视图"
         //设置X轴坐标值
-        lineChartView.xAxis.valueFormatter=IndexAxisValueFormatter(values: days)
+        let formatter=IndexAxisValueFormatter(values: days)
+        //formatter.numstyle
+        //formatt
+        lineChartView.xAxis.valueFormatter=formatter
+        
         lineChartView.xAxis.labelPosition = .bottom
         lineChartView.xAxis.axisLineWidth=1.0
         lineChartView.xAxis.drawLabelsEnabled=true
         lineChartView.xAxis.drawGridLinesEnabled=false
+        lineChartView.xAxis.centerAxisLabelsEnabled=true
+        lineChartView.xAxis.valueFormatter=IndexAxisValueFormatter(values: days)
+        //formatter 对 days进行处理
+        
         //设置Y轴坐标
         lineChartView.rightAxis.enabled=false
         lineChartView.leftAxis.axisLineWidth=1.0

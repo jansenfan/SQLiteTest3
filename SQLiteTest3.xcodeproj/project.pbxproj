@@ -19,6 +19,7 @@
 		204A8B9E201F50810038E208 /* SQLiteTest3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204A8B9D201F50810038E208 /* SQLiteTest3Tests.swift */; };
 		204A8BA9201F50810038E208 /* SQLiteTest3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204A8BA8201F50810038E208 /* SQLiteTest3UITests.swift */; };
 		20552AA2202174FC00627FCC /* peChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20552AA1202174FC00627FCC /* peChartView.swift */; };
+		2059A64C2028439B00FDDBB4 /* peDropBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2059A64B2028439A00FDDBB4 /* peDropBox.swift */; };
 		20C35F012020919900BD6D5A /* PE_SSE.json in Resources */ = {isa = PBXBuildFile; fileRef = 20C35F002020919900BD6D5A /* PE_SSE.json */; };
 		20C35F032020C0E000BD6D5A /* peTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C35F022020C0E000BD6D5A /* peTableView.swift */; };
 		20E49A2F201F61E6001A5D51 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 20E49A2E201F61E6001A5D51 /* libsqlite3.0.tbd */; };
@@ -63,6 +64,7 @@
 		204A8BA8201F50810038E208 /* SQLiteTest3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteTest3UITests.swift; sourceTree = "<group>"; };
 		204A8BAA201F50810038E208 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20552AA1202174FC00627FCC /* peChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = peChartView.swift; sourceTree = "<group>"; };
+		2059A64B2028439A00FDDBB4 /* peDropBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = peDropBox.swift; sourceTree = "<group>"; };
 		20C35F002020919900BD6D5A /* PE_SSE.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PE_SSE.json; sourceTree = "<group>"; };
 		20C35F022020C0E000BD6D5A /* peTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = peTableView.swift; sourceTree = "<group>"; };
 		20E49A2D201F547D001A5D51 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 				20385B7E202495120072D1C5 /* peBrowserView.swift */,
 				200271C22027130300D62D86 /* peSelectorView.swift */,
 				200271C420274F5B00D62D86 /* TGDropBoxView.swift */,
+				2059A64B2028439A00FDDBB4 /* peDropBox.swift */,
 			);
 			path = SQLiteTest3;
 			sourceTree = "<group>";
@@ -376,6 +379,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2059A64C2028439B00FDDBB4 /* peDropBox.swift in Sources */,
 				200C20EA2022B00300CECE23 /* peNetworkView.swift in Sources */,
 				204A8B8B201F50800038E208 /* ViewController.swift in Sources */,
 				200271C520274F5B00D62D86 /* TGDropBoxView.swift in Sources */,
